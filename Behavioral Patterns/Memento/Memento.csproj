@@ -6,7 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Solution1\" />
   </ItemGroup>
 
 </Project>
