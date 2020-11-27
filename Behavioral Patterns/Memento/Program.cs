@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Memento.Solution_3;
+using System;
 
 namespace Memento
 {
@@ -35,6 +36,22 @@ namespace Memento
             //anotherOriginator.Speak();
             //thirdOriginator.Speak();
             //Console.ReadKey();
+            #endregion
+
+            #region Solution3
+            //Originator<string> orig = new Originator<string>();
+            //orig.SetState("state0");
+            //Caretaker<string>.SaveState(orig); //save state of the originator
+            //orig.ShowState();
+            //orig.SetState("state1");
+            //Caretaker<string>.SaveState(orig); //save state of the originator
+            //orig.ShowState();
+            //orig.SetState("state2");
+            //Caretaker<string>.SaveState(orig); //save state of the originator
+            //orig.ShowState();
+            ////restore state of the originator
+            //Caretaker<string>.RestoreState(orig, 1);
+            //orig.ShowState();  //shows state0
             #endregion
         }
     }
