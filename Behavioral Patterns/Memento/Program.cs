@@ -1,4 +1,5 @@
 ﻿using Memento.Solution_3;
+using Memento.Solution_4;
 using System;
 
 namespace Memento
@@ -52,6 +53,20 @@ namespace Memento
             ////restore state of the originator
             //Caretaker<string>.RestoreState(orig, 1);
             //orig.ShowState();  //shows state0
+            #endregion
+
+            #region Solution4
+            //Originator o = new Originator();
+            //o.State = "On";
+            //// Store internal state
+            //Caretaker c = new Caretaker();
+            //c.Memento = o.CreateMemento();
+            //// Continue changing originator
+            //o.State = "Off";
+            //// Restore saved state
+            //o.SetMemento(c.Memento);
+            //// Wait for user
+            //Console.ReadKey();
             #endregion
         }
     }
