@@ -1,6 +1,6 @@
 ﻿using Memento.Real_world_with_Solution_4;
 using Memento.Solution_3;
-using Memento.Solution_4;
+using Memento;
 using System;
 
 namespace Memento
@@ -71,21 +71,47 @@ namespace Memento
             #endregion
 
             #region Real World with Solution 4
-            SalesProspect s = new SalesProspect();
-            s.Name = "Noel van Halen";
-            s.Phone = "(412) 256-0990";
-            s.Budget = 25000.0;
-            // Store internal state
-            ProspectMemory m = new ProspectMemory();
-            m.Memento = s.SaveMemento();
-            // Continue changing originator
-            s.Name = "Leo Welch";
-            s.Phone = "(310) 209-7111";
-            s.Budget = 1000000.0;
-            // Restore saved state
-            s.RestoreMemento(m.Memento);
-            // Wait for user
-            Console.ReadKey();
+            //SalesProspect s = new SalesProspect();
+            //s.Name = "Noel van Halen";
+            //s.Phone = "(412) 256-0990";
+            //s.Budget = 25000.0;
+            //// Store internal state
+            //ProspectMemory m = new ProspectMemory();
+            //m.Memento = s.SaveMemento();
+            //// Continue changing originator
+            //s.Name = "Leo Welch";
+            //s.Phone = "(310) 209-7111";
+            //s.Budget = 1000000.0;
+            //// Restore saved state
+            //s.RestoreMemento(m.Memento);
+            //// Wait for user
+            //Console.ReadKey();
+            #endregion
+
+            #region Book
+            // Initialise book
+            var book = new Book
+            {
+                ISBN = "0450488357",
+                Title = "The Tommyknockers",
+                Author = "Stephen King"
+            };
+            book.ShowBook();
+            System.Threading.Thread.Sleep(2000);
+
+            // Set undo point
+            Caretaker history = new Caretaker();
+            history.Memento = book.CreateUndo();
+
+            // Modify book
+            book.ISBN = "0330376144";
+            book.Title = "The Rats";
+            book.Author = "James Herbert";
+            book.ShowBook();
+
+            // Undo
+            book.RestoreFromUndo(history.Memento);
+            book.ShowBook();
             #endregion
         }
     }
