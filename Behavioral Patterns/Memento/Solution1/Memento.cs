@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 
-namespace Memento
+namespace Memento.Solution_1
 {
     class Memento
     {

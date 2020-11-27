@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Memento
+namespace Memento.Solution_1
 {
     class ConcreteOriginator : MementoBase
     {
