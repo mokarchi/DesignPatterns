@@ -1,9 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
-namespace Memento.Conceptual
+namespace MementoScheme
 {
     /// <summary>
     /// The Caretaker doesn't depend on the Concrete Memento class. Therefore, it

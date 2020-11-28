@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace Memento.Conceptual
+namespace MementoScheme
 {
     /// <summary>
     /// The Memento interface provides a way to retrieve the memento's metadata,

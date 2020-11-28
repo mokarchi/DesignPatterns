@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading;
 
-namespace Memento.Conceptual
+namespace MementoScheme
 {
     /// <summary>
     /// The Originator holds some important state that may change over time. It
