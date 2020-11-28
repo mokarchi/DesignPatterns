@@ -1,5 +1,4 @@
 ﻿using System;
-using Memento.Conceptual;
 
 namespace Memento
 {
@@ -136,28 +135,45 @@ namespace Memento
 
             #region Solution6
             // Client code.
-            Originator originator = new Originator("Super-duper-super-puper-super.");
-            Caretaker caretaker = new Caretaker(originator);
+            //Originator originator = new Originator("Super-duper-super-puper-super.");
+            //Caretaker caretaker = new Caretaker(originator);
 
-            caretaker.Backup();
-            originator.DoSomething();
+            //caretaker.Backup();
+            //originator.DoSomething();
 
-            caretaker.Backup();
-            originator.DoSomething();
+            //caretaker.Backup();
+            //originator.DoSomething();
 
-            caretaker.Backup();
-            originator.DoSomething();
+            //caretaker.Backup();
+            //originator.DoSomething();
 
-            Console.WriteLine();
-            caretaker.ShowHistory();
+            //Console.WriteLine();
+            //caretaker.ShowHistory();
 
-            Console.WriteLine("\nClient: Now, let's rollback!\n");
-            caretaker.Undo();
+            //Console.WriteLine("\nClient: Now, let's rollback!\n");
+            //caretaker.Undo();
 
-            Console.WriteLine("\n\nClient: Once more!\n");
-            caretaker.Undo();
+            //Console.WriteLine("\n\nClient: Once more!\n");
+            //caretaker.Undo();
 
-            Console.WriteLine();
+            //Console.WriteLine();
+            #endregion
+
+            #region Restaurant
+            //Here's a new supplier for our restaurant
+            //FoodSupplier s = new FoodSupplier();
+            //s.Name = "Harold Karstark";
+            //s.Phone = "(482) 555-1172";
+
+            //// Let's store that entry in our database.
+            //SupplierMemory m = new SupplierMemory();
+            //m.Memento = s.SaveMemento();
+
+            //// Continue changing originator
+            //s.Address = "548 S Main St. Nowhere, KS";
+
+            //// Crap, gotta undo that entry, I entered the wrong address
+            //s.RestoreMemento(m.Memento);
             #endregion
         }
     }
