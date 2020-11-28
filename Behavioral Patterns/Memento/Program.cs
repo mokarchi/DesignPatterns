@@ -1,5 +1,5 @@
 ﻿using System;
-using Mechanic;
+using Memento.Conceptual;
 
 namespace Memento
 {
@@ -126,12 +126,38 @@ namespace Memento
             #endregion
 
             #region Car
-            Caretaker caretaker = new Caretaker();
-            Mechanics mechanic = new Mechanics();
-            mechanic.setState("The brake drum is in use. Begin of work");
-            caretaker.addMemento(mechanic.save());
-            mechanic.setState("The brake drum is available to use. End of work");
-            mechanic.restore(caretaker.getMemento(0));
+            //Caretaker caretaker = new Caretaker();
+            //Mechanics mechanic = new Mechanics();
+            //mechanic.setState("The brake drum is in use. Begin of work");
+            //caretaker.addMemento(mechanic.save());
+            //mechanic.setState("The brake drum is available to use. End of work");
+            //mechanic.restore(caretaker.getMemento(0));
+            #endregion
+
+            #region Solution6
+            // Client code.
+            Originator originator = new Originator("Super-duper-super-puper-super.");
+            Caretaker caretaker = new Caretaker(originator);
+
+            caretaker.Backup();
+            originator.DoSomething();
+
+            caretaker.Backup();
+            originator.DoSomething();
+
+            caretaker.Backup();
+            originator.DoSomething();
+
+            Console.WriteLine();
+            caretaker.ShowHistory();
+
+            Console.WriteLine("\nClient: Now, let's rollback!\n");
+            caretaker.Undo();
+
+            Console.WriteLine("\n\nClient: Once more!\n");
+            caretaker.Undo();
+
+            Console.WriteLine();
             #endregion
         }
     }
