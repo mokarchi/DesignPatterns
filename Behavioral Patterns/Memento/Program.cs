@@ -1,7 +1,5 @@
-﻿using Memento.Real_world_with_Solution_4;
-using Memento.Solution_3;
-using Memento;
-using System;
+﻿using System;
+using MementoScheme;
 
 namespace Memento
 {
@@ -90,28 +88,41 @@ namespace Memento
 
             #region Book
             // Initialise book
-            var book = new Book
-            {
-                ISBN = "0450488357",
-                Title = "The Tommyknockers",
-                Author = "Stephen King"
-            };
-            book.ShowBook();
-            System.Threading.Thread.Sleep(2000);
+            //var book = new Book
+            //{
+            //    ISBN = "0450488357",
+            //    Title = "The Tommyknockers",
+            //    Author = "Stephen King"
+            //};
+            //book.ShowBook();
+            //System.Threading.Thread.Sleep(2000);
 
-            // Set undo point
-            Caretaker history = new Caretaker();
-            history.Memento = book.CreateUndo();
+            //// Set undo point
+            //Caretaker history = new Caretaker();
+            //history.Memento = book.CreateUndo();
 
-            // Modify book
-            book.ISBN = "0330376144";
-            book.Title = "The Rats";
-            book.Author = "James Herbert";
-            book.ShowBook();
+            //// Modify book
+            //book.ISBN = "0330376144";
+            //book.Title = "The Rats";
+            //book.Author = "James Herbert";
+            //book.ShowBook();
 
-            // Undo
-            book.RestoreFromUndo(history.Memento);
-            book.ShowBook();
+            //// Undo
+            //book.RestoreFromUndo(history.Memento);
+            //book.ShowBook();
+            #endregion
+
+            #region Solution5
+            Caretaker caretaker = new Caretaker();
+            Originator originator = new Originator();
+            originator.setState("State1");
+            originator.setState("State2");
+            caretaker.addMemento(originator.save());
+            originator.setState("State3");
+            caretaker.addMemento(originator.save());
+            originator.setState("State4");
+            originator.restore(caretaker.getMemento(1)); 
+            Console.ReadLine();
             #endregion
         }
     }

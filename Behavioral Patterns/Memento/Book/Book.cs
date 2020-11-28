@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Memento
+namespace MementoBook
 {
     public class Book
     {
