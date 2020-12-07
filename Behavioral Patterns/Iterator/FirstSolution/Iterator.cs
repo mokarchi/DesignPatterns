@@ -4,13 +4,13 @@ using System.Text;
 
 namespace Iterator.FirstSolution
 {
-    class IteratorPattern : AbstractIterator
+    class Iterator : AbstractIterator
     {
         private ConcreteCollection collection;
         private int current = 0;
         private int step = 1;
         // Constructor
-        public IteratorPattern(ConcreteCollection collection)
+        public Iterator(ConcreteCollection collection)
         {
             this.collection = collection;
         }

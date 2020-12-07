@@ -6,6 +6,6 @@ namespace Iterator.FirstSolution
 {
     interface AbstractCollection
     {
-        IteratorPattern CreateIterator();
+        Iterator CreateIterator();
     }
 }

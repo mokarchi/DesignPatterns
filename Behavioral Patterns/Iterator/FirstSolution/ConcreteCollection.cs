@@ -8,9 +8,9 @@ namespace Iterator.FirstSolution
     {
         private List<Elempoyee> listEmployees = new List<Elempoyee>();
         //Create Iterator
-        public IteratorPattern CreateIterator()
+        public Iterator CreateIterator()
         {
-            return new IteratorPattern(this);
+            return new Iterator(this);
         }
         // Gets item count
         public int Count
