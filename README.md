@@ -6,8 +6,9 @@ Design patterns are solutions to recurring problems
 * [Structural patterns]
 * [Behavioral patterns]
   * [Memento](#memento)
-  * [State](#State)
+  * [State](#state)
   * [Iterator](#iterator)
+  * [Strategy](#strategy)
   
 
 ## Memento
@@ -26,4 +27,10 @@ Allow an object to alter its behavior when its internal state changes. The objec
 Iterator is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
 <p align="center">
   <img src="https://refactoring.guru/images/patterns/diagrams/iterator/structure.png" />
+</p>
+
+## Strategy
+Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/strategy.gif" />
 </p>
