@@ -14,7 +14,7 @@ Design patterns are solutions to recurring problems
 ## Memento
 Memento is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
 <p align="center">
-  <img src="https://refactoring.guru/images/patterns/diagrams/memento/structure2.png" />
+  <img src="https://www.dofactory.com/img/diagrams/net/memento.gif" />
 </p>
 
 ## State
@@ -26,7 +26,7 @@ Allow an object to alter its behavior when its internal state changes. The objec
 ## Iterator
 Iterator is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation (list, stack, tree, etc.).
 <p align="center">
-  <img src="https://refactoring.guru/images/patterns/diagrams/iterator/structure.png" />
+  <img src="https://www.dofactory.com/img/diagrams/net/iterator.gif" />
 </p>
 
 ## Strategy
