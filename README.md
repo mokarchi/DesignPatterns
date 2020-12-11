@@ -10,7 +10,7 @@ Design patterns are solutions to recurring problems
   * [Iterator](#iterator)
   * [Strategy](#strategy)
   * [Template Method](#Template-Method)
-  
+  * [Command](#Command)
   
 ## Behavioral Patterns
 
@@ -42,4 +42,10 @@ Define a family of algorithms, encapsulate each one, and make them interchangeab
 Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure. 
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/template.gif" />
+</p>
+
+### Command
+Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/command.gif" />
 </p>
