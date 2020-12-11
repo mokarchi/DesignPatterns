@@ -9,6 +9,8 @@ Design patterns are solutions to recurring problems
   * [State](#state)
   * [Iterator](#iterator)
   * [Strategy](#strategy)
+  * [Template Method](#Template-Method)
+  
   
 ## Behavioral Patterns
 
@@ -34,4 +36,10 @@ Iterator is a behavioral design pattern that lets you traverse elements of a col
 Define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/strategy.gif" />
+</p>
+
+### Template Method
+Define the skeleton of an algorithm in an operation, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/template.gif" />
 </p>
