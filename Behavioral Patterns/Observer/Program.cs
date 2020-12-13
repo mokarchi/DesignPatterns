@@ -1,5 +1,6 @@
 ﻿using System;
 using Observer.market;
+using Observer.Stock;
 
 namespace Observer
 {
@@ -20,6 +21,20 @@ namespace Observer
             carrots.PricePerPound = 0.76;
             carrots.PricePerPound = 0.74;
             carrots.PricePerPound = 0.81;
+            #endregion
+
+            #region Stock
+            // Create IBM stock and attach investors
+            IBM ibm = new IBM("IBM", 120.00);
+            ibm.Attach(new Investor("Sorros"));
+            ibm.Attach(new Investor("Berkshire"));
+
+            // Fluctuating prices will notify investors
+
+            ibm.Price = 120.10;
+            ibm.Price = 121.00;
+            ibm.Price = 120.50;
+            ibm.Price = 120.75;
             #endregion
         }
     }
