@@ -11,6 +11,7 @@ Design patterns are solutions to recurring problems
   * [Strategy](#strategy)
   * [Template Method](#Template-Method)
   * [Command](#Command)
+  * [Observer](#Observer)
   
 ## Behavioral Patterns
 
@@ -48,4 +49,10 @@ Define the skeleton of an algorithm in an operation, deferring some steps to sub
 Encapsulate a request as an object, thereby letting you parameterize clients with different requests, queue or log requests, and support undoable operations. 
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/command.gif" />
+</p>
+
+### Observer
+Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/observer.gif" />
 </p>
