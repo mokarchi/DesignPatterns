@@ -13,6 +13,7 @@ Design patterns are solutions to recurring problems
   * [Command](#Command)
   * [Observer](#Observer)
   * [Mediator](#Mediator)
+  * [Chain of Responsibility](#Chain-of-Responsibility)
   
 ## Behavioral Patterns
 
@@ -59,7 +60,13 @@ Define a one-to-many dependency between objects so that when one object changes 
 </p>
 
 ### Mediator
- Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
+Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/mediator.gif" />
+</p>
+
+### Chain of Responsibility
+Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/chain.gif" />
 </p>
