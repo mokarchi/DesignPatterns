@@ -14,7 +14,9 @@ Design patterns are solutions to recurring problems
   * [Observer](#Observer)
   * [Mediator](#Mediator)
   * [Chain of Responsibility](#Chain-of-Responsibility)
-  
+  * [Visitor](#Visitor)
+
+
 ## Behavioral Patterns
 
 ### Memento
@@ -69,4 +71,10 @@ Define an object that encapsulates how a set of objects interact. Mediator promo
 Avoid coupling the sender of a request to its receiver by giving more than one object a chance to handle the request. Chain the receiving objects and pass the request along the chain until an object handles it.
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/chain.gif" />
+</p>
+
+### Visitor
+Represent an operation to be performed on the elements of an object structure. Visitor lets you define a new operation without changing the classes of the elements on which it operates. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/visitor.gif" />
 </p>
