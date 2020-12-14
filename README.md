@@ -12,6 +12,7 @@ Design patterns are solutions to recurring problems
   * [Template Method](#Template-Method)
   * [Command](#Command)
   * [Observer](#Observer)
+  * [Mediator](#Mediator)
   
 ## Behavioral Patterns
 
@@ -55,4 +56,10 @@ Encapsulate a request as an object, thereby letting you parameterize clients wit
 Define a one-to-many dependency between objects so that when one object changes state, all its dependents are notified and updated automatically.
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/observer.gif" />
+</p>
+
+### Mediator
+ Define an object that encapsulates how a set of objects interact. Mediator promotes loose coupling by keeping objects from referring to each other explicitly, and it lets you vary their interaction independently.
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/mediator.gif" />
 </p>
