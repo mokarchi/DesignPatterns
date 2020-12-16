@@ -3,7 +3,8 @@ Design patterns are solutions to recurring problems
 # Types of Design Patterns
  
 * [Creational Patterns]
-* [Structural Patterns]
+* [Structural Patterns](#Structural-Patterns)
+  * [Composite](#Composite)
 * [Behavioral Patterns](#Behavioral-Patterns)
   * [Memento](#memento)
   * [State](#state)
@@ -16,6 +17,13 @@ Design patterns are solutions to recurring problems
   * [Chain of Responsibility](#Chain-of-Responsibility)
   * [Visitor](#Visitor)
 
+## Structural Patterns
+
+### Composite
+Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/composite.gif" />
+</p>
 
 ## Behavioral Patterns
 
