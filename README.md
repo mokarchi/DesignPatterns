@@ -8,6 +8,7 @@ Design patterns are solutions to recurring problems
   * [Adapter](#Adapter)
   * [Decorator](#Decorator)
   * [Facade](#Facade)
+  * [Bridge](#Bridge)
 * [Behavioral Patterns](#Behavioral-Patterns)
   * [Memento](#memento)
   * [State](#state)
@@ -44,6 +45,12 @@ Attach additional responsibilities to an object dynamically. Decorators provide 
 Provide a unified interface to a set of interfaces in a subsystem. Façade defines a higher-level interface that makes the subsystem easier to use. 
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/facade.gif" />
+</p>
+
+### Bridge
+ Decouple an abstraction from its implementation so that the two can vary independently. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/bridge.gif" />
 </p>
 
 ## Behavioral Patterns
