@@ -6,6 +6,7 @@ Design patterns are solutions to recurring problems
 * [Structural Patterns](#Structural-Patterns)
   * [Composite](#Composite)
   * [Adapter](#Adapter)
+  * [Decorator](#Decorator)
 * [Behavioral Patterns](#Behavioral-Patterns)
   * [Memento](#memento)
   * [State](#state)
@@ -30,6 +31,12 @@ Compose objects into tree structures to represent part-whole hierarchies. Compos
 Convert the interface of a class into another interface clients expect. Adapter lets classes work together that couldn't otherwise because of incompatible interfaces.
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/adapter.gif" />
+</p>
+
+### Decorator
+Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/decorator.gif" />
 </p>
 
 ## Behavioral Patterns
