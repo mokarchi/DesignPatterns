@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Structural\Facade
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Flyweight", "Structural\Flyweight\Flyweight.csproj", "{ADC3932E-FE74-4B5C-A9E7-B9C8CB2E684E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Structural\Bridge\Bridge.csproj", "{6BDD7568-DB11-4C78-B2FF-04DB061BBE4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -103,6 +105,10 @@ Global
 		{ADC3932E-FE74-4B5C-A9E7-B9C8CB2E684E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADC3932E-FE74-4B5C-A9E7-B9C8CB2E684E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADC3932E-FE74-4B5C-A9E7-B9C8CB2E684E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BDD7568-DB11-4C78-B2FF-04DB061BBE4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDD7568-DB11-4C78-B2FF-04DB061BBE4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDD7568-DB11-4C78-B2FF-04DB061BBE4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDD7568-DB11-4C78-B2FF-04DB061BBE4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{2FB12AE9-971C-4D53-A62E-61FFD1C87C00} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 		{D14FC5D0-778C-47A6-B67A-E8FAFD2C7FBA} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 		{ADC3932E-FE74-4B5C-A9E7-B9C8CB2E684E} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
+		{6BDD7568-DB11-4C78-B2FF-04DB061BBE4E} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C268628-8209-4133-9993-99B564299D74}
