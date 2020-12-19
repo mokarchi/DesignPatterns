@@ -9,6 +9,7 @@ Design patterns are solutions to recurring problems
   * [Decorator](#Decorator)
   * [Facade](#Facade)
   * [Bridge](#Bridge)
+  * [Flyweight](#Flyweight)
 * [Behavioral Patterns](#Behavioral-Patterns)
   * [Memento](#memento)
   * [State](#state)
@@ -48,9 +49,15 @@ Provide a unified interface to a set of interfaces in a subsystem. Façade defin
 </p>
 
 ### Bridge
- Decouple an abstraction from its implementation so that the two can vary independently. 
+Decouple an abstraction from its implementation so that the two can vary independently. 
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/bridge.gif" />
+</p>
+
+### Flyweight
+Use sharing to support large numbers of fine-grained objects efficiently. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/flyweight.gif" />
 </p>
 
 ## Behavioral Patterns
