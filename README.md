@@ -7,6 +7,7 @@ Design patterns are solutions to recurring problems
   * [Composite](#Composite)
   * [Adapter](#Adapter)
   * [Decorator](#Decorator)
+  * [Facade](#Facade)
 * [Behavioral Patterns](#Behavioral-Patterns)
   * [Memento](#memento)
   * [State](#state)
@@ -37,6 +38,12 @@ Convert the interface of a class into another interface clients expect. Adapter 
 Attach additional responsibilities to an object dynamically. Decorators provide a flexible alternative to subclassing for extending functionality.
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/decorator.gif" />
+</p>
+
+### Facade
+Provide a unified interface to a set of interfaces in a subsystem. Façade defines a higher-level interface that makes the subsystem easier to use. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/facade.gif" />
 </p>
 
 ## Behavioral Patterns
