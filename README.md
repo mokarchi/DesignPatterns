@@ -10,6 +10,7 @@ Design patterns are solutions to recurring problems
   * [Facade](#Facade)
   * [Bridge](#Bridge)
   * [Flyweight](#Flyweight)
+  * [Proxy](#Proxy)
 * [Behavioral Patterns](#Behavioral-Patterns)
   * [Memento](#memento)
   * [State](#state)
@@ -58,6 +59,12 @@ Decouple an abstraction from its implementation so that the two can vary indepen
 Use sharing to support large numbers of fine-grained objects efficiently. 
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/flyweight.gif" />
+</p>
+
+### Proxy
+Provide a surrogate or placeholder for another object to control access to it. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/proxy.gif" />
 </p>
 
 ## Behavioral Patterns
