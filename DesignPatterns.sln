@@ -27,31 +27,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visitor", "Behavioral Patte
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural Patterns", "Structural Patterns", "{52BCFF59-FC3E-49D2-9A81-4534D1230947}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Structural\Composite\Composite.csproj", "{EEDB54F5-4BEE-41B3-AE0A-207257236563}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Structural Patterns\Composite\Composite.csproj", "{EEDB54F5-4BEE-41B3-AE0A-207257236563}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{2E4559CC-5240-4624-878E-02C45129E99A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Structural Patterns\Adapter\Adapter.csproj", "{2E4559CC-5240-4624-878E-02C45129E99A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Structural\Decorator\Decorator.csproj", "{2FB12AE9-971C-4D53-A62E-61FFD1C87C00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Structural Patterns\Decorator\Decorator.csproj", "{2FB12AE9-971C-4D53-A62E-61FFD1C87C00}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Structural\Facade\Facade.csproj", "{D14FC5D0-778C-47A6-B67A-E8FAFD2C7FBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Structural Patterns\Facade\Facade.csproj", "{D14FC5D0-778C-47A6-B67A-E8FAFD2C7FBA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Structural\Flyweight\Flyweight.csproj", "{ADC3932E-FE74-4B5C-A9E7-B9C8CB2E684E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Structural Patterns\Flyweight\Flyweight.csproj", "{ADC3932E-FE74-4B5C-A9E7-B9C8CB2E684E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Structural\Bridge\Bridge.csproj", "{6BDD7568-DB11-4C78-B2FF-04DB061BBE4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge", "Structural Patterns\Bridge\Bridge.csproj", "{6BDD7568-DB11-4C78-B2FF-04DB061BBE4E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Structural\Proxy\Proxy.csproj", "{23658065-87C5-4D55-879C-6636ED3E9321}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Structural Patterns\Proxy\Proxy.csproj", "{23658065-87C5-4D55-879C-6636ED3E9321}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{DD124439-F46D-4F72-A899-AFDA3B4013A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Method", "Creational\Factory Method\Factory Method.csproj", "{7EF1D0F8-13AB-4101-9606-6D36D254A8FD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Method", "Creational Patterns\Factory Method\Factory Method.csproj", "{7EF1D0F8-13AB-4101-9606-6D36D254A8FD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "Creational\Abstract Factory\Abstract Factory.csproj", "{D5B0DA13-6680-47F8-947B-A2D5460A3FEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "Creational Patterns\Abstract Factory\Abstract Factory.csproj", "{D5B0DA13-6680-47F8-947B-A2D5460A3FEA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Builder\Builder.csproj", "{DA2DE70D-921D-4585-BB9B-1F7F219DFC4D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational Patterns\Builder\Builder.csproj", "{DA2DE70D-921D-4585-BB9B-1F7F219DFC4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Creational\Prototype\Prototype.csproj", "{63EEF6F1-4866-4899-80F5-E3072FC38A77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Creational Patterns\Prototype\Prototype.csproj", "{63EEF6F1-4866-4899-80F5-E3072FC38A77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational\Singleton\Singleton.csproj", "{1C07CE8A-9767-44C8-AD9B-80FEBADA5C37}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Creational Patterns\Singleton\Singleton.csproj", "{1C07CE8A-9767-44C8-AD9B-80FEBADA5C37}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
