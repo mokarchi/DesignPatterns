@@ -49,6 +49,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract Factory", "Creatio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Creational\Builder\Builder.csproj", "{DA2DE70D-921D-4585-BB9B-1F7F219DFC4D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Creational\Prototype\Prototype.csproj", "{63EEF6F1-4866-4899-80F5-E3072FC38A77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{DA2DE70D-921D-4585-BB9B-1F7F219DFC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA2DE70D-921D-4585-BB9B-1F7F219DFC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA2DE70D-921D-4585-BB9B-1F7F219DFC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63EEF6F1-4866-4899-80F5-E3072FC38A77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63EEF6F1-4866-4899-80F5-E3072FC38A77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63EEF6F1-4866-4899-80F5-E3072FC38A77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63EEF6F1-4866-4899-80F5-E3072FC38A77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -160,6 +166,7 @@ Global
 		{7EF1D0F8-13AB-4101-9606-6D36D254A8FD} = {DD124439-F46D-4F72-A899-AFDA3B4013A5}
 		{D5B0DA13-6680-47F8-947B-A2D5460A3FEA} = {DD124439-F46D-4F72-A899-AFDA3B4013A5}
 		{DA2DE70D-921D-4585-BB9B-1F7F219DFC4D} = {DD124439-F46D-4F72-A899-AFDA3B4013A5}
+		{63EEF6F1-4866-4899-80F5-E3072FC38A77} = {DD124439-F46D-4F72-A899-AFDA3B4013A5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C268628-8209-4133-9993-99B564299D74}
