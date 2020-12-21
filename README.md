@@ -2,7 +2,8 @@
 Design patterns are solutions to recurring problems
 # Types of Design Patterns
  
-* [Creational Patterns]
+* [Creational Patterns](#Creational-Patterns)
+  * [Factory Method](#Factory-Method)
 * [Structural Patterns](#Structural-Patterns)
   * [Composite](#Composite)
   * [Adapter](#Adapter)
@@ -22,6 +23,14 @@ Design patterns are solutions to recurring problems
   * [Mediator](#Mediator)
   * [Chain of Responsibility](#Chain-of-Responsibility)
   * [Visitor](#Visitor)
+
+## Creational Patterns
+
+### Factory Method
+Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/factory.gif" />
+</p>
 
 ## Structural Patterns
 
