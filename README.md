@@ -2,7 +2,12 @@
 Design patterns are solutions to recurring problems
 # Types of Design Patterns
  
-* [Creational Patterns]
+* [Creational Patterns](#Creational-Patterns)
+  * [Factory Method](#Factory-Method)
+  * [Abstract Factory](#Abstract-Factory)
+  * [Builder](#Builder)
+  * [Prototype](#Prototype)
+  * [Singleton](#Singleton)
 * [Structural Patterns](#Structural-Patterns)
   * [Composite](#Composite)
   * [Adapter](#Adapter)
@@ -22,6 +27,39 @@ Design patterns are solutions to recurring problems
   * [Mediator](#Mediator)
   * [Chain of Responsibility](#Chain-of-Responsibility)
   * [Visitor](#Visitor)
+
+## Creational Patterns
+
+### Factory Method
+Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/factory.gif" />
+</p>
+
+### Abstract Factory
+Provide an interface for creating families of related or dependent objects without specifying their concrete classes. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/abstract.gif" />
+</p>
+
+
+### Builder
+Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/builder.gif" />
+</p>
+
+### Prototype
+Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/prototype.gif" />
+</p>
+
+### Singleton
+Ensure a class has only one instance and provide a global point of access to it. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/singleton.gif" />
+</p>
 
 ## Structural Patterns
 
