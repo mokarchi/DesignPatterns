@@ -7,6 +7,7 @@ Design patterns are solutions to recurring problems
   * [Abstract Factory](#Abstract-Factory)
   * [Builder](#Builder)
   * [Prototype](#Prototype)
+  * [Singleton](#Singleton)
 * [Structural Patterns](#Structural-Patterns)
   * [Composite](#Composite)
   * [Adapter](#Adapter)
@@ -52,6 +53,12 @@ Separate the construction of a complex object from its representation so that th
 Specify the kind of objects to create using a prototypical instance, and create new objects by copying this prototype. 
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/prototype.gif" />
+</p>
+
+### Singleton
+Ensure a class has only one instance and provide a global point of access to it. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/singleton.gif" />
 </p>
 
 ## Structural Patterns
