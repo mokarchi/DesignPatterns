@@ -4,6 +4,7 @@ Design patterns are solutions to recurring problems
  
 * [Creational Patterns](#Creational-Patterns)
   * [Factory Method](#Factory-Method)
+  * [Abstract Factory](#Abstract-Factory)
 * [Structural Patterns](#Structural-Patterns)
   * [Composite](#Composite)
   * [Adapter](#Adapter)
@@ -30,6 +31,12 @@ Design patterns are solutions to recurring problems
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
 <p align="center">
   <img src="https://www.dofactory.com/img/diagrams/net/factory.gif" />
+</p>
+
+### Abstract Factory
+Provide an interface for creating families of related or dependent objects without specifying their concrete classes. 
+<p align="center">
+  <img src="https://www.dofactory.com/img/diagrams/net/abstract.gif" />
 </p>
 
 ## Structural Patterns
