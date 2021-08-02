@@ -7,7 +7,7 @@ namespace Mediator.Chat
     /// <summary>
     /// The 'AbstractColleague' class
     /// </summary>
-    class Participant
+    public class Participant
     {
         private Chatroom _chatroom;
         private string _name;
