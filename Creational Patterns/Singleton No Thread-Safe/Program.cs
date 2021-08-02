@@ -6,7 +6,11 @@ namespace Singleton_No_Thread_Safe
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Singleton fromTeachaer = Singleton.GetInstance;
+            fromTeachaer.PrintDetails("From Teacher");
+            Singleton fromStudent = Singleton.GetInstance;
+            fromStudent.PrintDetails("From Student");
+            Console.ReadLine();
         }
     }
 }
