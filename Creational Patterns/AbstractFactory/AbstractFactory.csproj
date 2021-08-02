@@ -5,4 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Abstract Products\" />
+    <Folder Include="Concrete Factories\" />
+    <Folder Include="Concrete Products\" />
+  </ItemGroup>
+
 </Project>
