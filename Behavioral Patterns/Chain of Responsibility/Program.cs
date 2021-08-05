@@ -1,33 +1,19 @@
 ﻿using System;
-using Chain_of_Responsibility.Restaurant;
 
-namespace Chain_of_Responsibility
+namespace ChainOfResponsibility
 {
     class Program
     {
         static void Main(string[] args)
         {
-            //Create the chain links
-            Approver jennifer = new HeadChef();
-            Approver mitchell = new PurchasingManager();
-            Approver olivia = new GeneralManager();
-
-            //Create the chain
-            jennifer.SetSupervisor(mitchell);
-            mitchell.SetSupervisor(olivia);
-
-            // Generate and process purchase requests
-            PurchaseOrder p = new PurchaseOrder(1, 20, 69, "Spices");
-            jennifer.ProcessRequest(p);
-
-            p = new PurchaseOrder(2, 300, 1389, "Fresh Veggies");
-            jennifer.ProcessRequest(p);
-
-            p = new PurchaseOrder(3, 500, 4823.99, "Beef");
-            jennifer.ProcessRequest(p);
-
-            p = new PurchaseOrder(4, 4, 12099, "Ovens");
-            jennifer.ProcessRequest(p);
+            ATM atm = new ATM();
+            Console.WriteLine("\n Requested Amount 4600");
+            atm.withdraw(4600);
+            Console.WriteLine("\n Requested Amount 1900");
+            atm.withdraw(1900);
+            Console.WriteLine("\n Requested Amount 600");
+            atm.withdraw(600);
+            Console.Read();
         }
     }
 }
