@@ -6,15 +6,13 @@ namespace Visitor
     {
         static void Main(string[] args)
         {
-            // Setup employee collection
-            Employees e = new Employees();
-            e.Attach(new Clerk());
-            e.Attach(new Director());
-            e.Attach(new President());
-
-            // Employees are 'visited'
-            e.Accept(new IncomeVisitor());
-            e.Accept(new VacationVisitor());
+            School school = new School();
+            var visitor1 = new Doctor("James");
+            school.PerformOperation(visitor1);
+            Console.WriteLine();
+            var visitor2 = new Salesman("John");
+            school.PerformOperation(visitor2);
+            Console.Read();
         }
     }
 }

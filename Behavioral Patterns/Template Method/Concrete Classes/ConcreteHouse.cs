@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Template
+namespace TemplateMethod
 {
     public class ConcreteHouse : HouseTemplate
     {

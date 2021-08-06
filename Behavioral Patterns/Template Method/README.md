@@ -1,4 +1,4 @@
-﻿### Strategy  
+﻿### Template Method  
 The Template Method Design Pattern defines a sequence of steps of an algorithm and allows the subclasses to override the steps but not allowed to change the sequence. The Key to the Template Design Pattern is that we put the general logic in the abstract parent class and let the child classes define the specifics.
 
 Let us understand the above explanation with an example. Suppose you want to build a concrete house, then you need to follow a sequence of steps such as first you need to build a foundation, then you need to build Pillars. Third, you need to build Walls and finally, you need to build Windows as shown in the below image.
