@@ -1,19 +1,21 @@
 ﻿using System;
 
-namespace Template_Method
+namespace Template
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Sourdough sourdough = new Sourdough();
-            sourdough.Make();
-
-            TwelveGrain twelveGrain = new TwelveGrain();
-            twelveGrain.Make();
-
-            WholeWheat wholeWheat = new WholeWheat();
-            wholeWheat.Make();
+            Console.WriteLine("Build a Concrete House\n");
+            HouseTemplate houseTemplate = new ConcreteHouse();
+            // call the template method
+            houseTemplate.BuildHouse();
+            Console.WriteLine();
+            Console.WriteLine("Build a Wooden House\n");
+            houseTemplate = new WoodenHouse();
+            // call the template method
+            houseTemplate.BuildHouse();
+            Console.Read();
         }
     }
 }
