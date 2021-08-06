@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Iterator.FirstSolution
+﻿namespace Iterator
 {
     class Iterator : AbstractIterator
     {
@@ -14,18 +10,13 @@ namespace Iterator.FirstSolution
         {
             this.collection = collection;
         }
-        // Check whether iteration is complete
-        public bool IsCompleted
-        {
-            get { return current >= collection.Count; }
-        }
-
+        // Gets first item
         public Elempoyee First()
         {
             current = 0;
             return collection.GetEmployee(current);
         }
-
+        // Gets next item
         public Elempoyee Next()
         {
             current += step;
@@ -37,6 +28,11 @@ namespace Iterator.FirstSolution
             {
                 return null;
             }
+        }
+        // Check whether iteration is complete
+        public bool IsCompleted
+        {
+            get { return current >= collection.Count; }
         }
     }
 }
