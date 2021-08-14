@@ -1,15 +1,15 @@
-﻿### State  
+### State  
 According to Gang of Four Definitions, the State Design Pattern allows an object to alter its behavior when its internal state changes. In simple words, we can say that the State Pattern is a design pattern that allows an object to completely change its behavior depending upon its current internal state.
 
 For a better understanding of the above definition, please have a look at the following diagram. Here, you can see on the left-hand side we have the client and on the right-hand side we have the Context object and the context object internally maintains some states (such as State A and State B).
 
 As you can see in the below diagram, the current state of the Context object is State A. So, when the client makes a request to the Context object, what the Context object will do is, it will perform Operation A.
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2019/11/word-image-14.png" />
+  <img src="http://mokarchi.ir/git/State/word-image-14.png" />
 </p>
 Let us say the state of the context object is changed to State B. Now when the request is coming from the client, the context object will perform operation B as the current state us State B as shown in the following diagram.
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2019/11/word-image-15-768x248.png" />
+  <img src="http://mokarchi.ir/git/State/word-image-15-768x248.png" />
 </p>
 So, the point that you need to remember is based on the internal state of the context object, the behavior will be changed.
 ---
@@ -27,6 +27,6 @@ Suppose you inserted the debit card into the machine. So the state of the ATM (i
     You can enter the PIN number and withdraw the money.
 
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2019/11/word-image-16-768x342.png" />
+  <img src="http://mokarchi.ir/git/State/word-image-16-768x342.png" />
 </p>
 The point that you need to remember is, if the state is Debit Card Not Inserted then it will allow you to perform certain operations and when the state is Debit Card Inserted then it will allow you to perform another set of operations. So, based on the internal state of the ATM machine the behavior will be changed.
