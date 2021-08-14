@@ -6,11 +6,11 @@ In the simplest form, we can define a proxy as a class functioning as an interfa
 We can also say that the Proxy is the object which is being called by the client to access the real object behind the scene. That means, In Proxy Design Pattern, a class represents the functionality of another class
 ---
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2019/11/word-image-3-768x311.png" />
+  <img src="http://mokarchi.ir/git/Proxy/word-image-3-768x311.png" />
 </p>
 
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2019/11/word-image-4.png" />
+  <img src="http://mokarchi.ir/git/Proxy/word-image-4.png" />
 </p>
 ---
 ## Implementation of Proxy Design Pattern(Protection Proxy):
@@ -18,7 +18,7 @@ Please have a look at the following diagram. As you can see in the following ima
 
 What we can do here is, in between the employees and the shared computer we need to introduce the Folder Proxy. What this Folder proxy can do is, it will check if the employee’s role is Manager or CEO, then it allows the employee to access the shared folder and perform the read-write operation. On the other hand, if the employee role is Developer then it will say you don’t have permission to access this folder. That kind of protection logic we can write in the folder proxy.
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2019/11/word-image-6-768x361.png" />
+  <img src="http://mokarchi.ir/git/Proxy/word-image-6-768x361.png" />
 </p>
 ---
 ## When to use the Proxy Design Pattern in C# Real-Time Applications?
