@@ -1,4 +1,4 @@
-﻿### Strategy  
+### Strategy  
 According to Gang of Four Definitions, define a family of algorithms, encapsulate each one, and make them interchangeable. Strategy lets the algorithm vary independently from clients that use it.
 
 The Strategy Design Pattern is used when we have multiple algorithms (solutions) for a specific task and the client decides the actual implementation to be used at runtime.
@@ -7,7 +7,7 @@ In simple words, we can say that the Strategy Design Pattern (also called policy
 
 To understand the above explanation better, please have a look at the following image. As shown in the below diagram we have one task and to solve the task we have three solutions (i.e. Solution 1, Solution 2, and Solution 3). That means using the above three solutions we can achieve the task. As per the Strategy Design Pattern which solution should be used that will be decided by the client only at runtime. So, the client will decide whether to use Solution 1 to achieve the task or solution 2 to achieve the task or solution 3 to achieve the task at run time.
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2019/11/word-image-38.png" />
+  <img src="http://mokarchi.ir/git/Strategy/word-image-38.png" />
 </p>
 ---
 ## Example
@@ -16,7 +16,7 @@ Let us understand the strategy design pattern using one real-time example. Pleas
 For this requirement, I have two solutions. The first solution is, I can compress the folder into rar format and send it to the client and the second solution is, I can compress the folder into zip format and sends it to the client. So, for the above requirement, I have two solutions
 
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2019/11/word-image-39-768x301.png" />
+  <img src="http://mokarchi.ir/git/Strategy/word-image-39-768x301.png" />
 </p>
 As per the strategy design pattern, for the particular problem (task) there are multiple solutions and which solution to be used will be decided by the client at runtime. So, in our example, the client will decide at runtime in which format he wants the file.
 ---
