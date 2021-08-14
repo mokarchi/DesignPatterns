@@ -1,8 +1,8 @@
-﻿### Decorator 
+﻿### Proxy 
 A Virtual Proxy is a placeholder for objects which are expensive to create. The real object is only created when a client requests or accesses an object for the first time. Let us understand this with one real-time example. Please have a look at the following image. On the right-hand side, you can see the System A which has one image (Tiger image) of 200 MB. On the left-hand side, you can see the client. In between the client and System A, there is System B which is acts as the virtual proxy.
 
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2019/12/word-image.png" />
+  <img src="http://mokarchi.ir/git/Proxy/word-image.png" />
 </p>
 
 Let say, for the first time, the client sends a request to System B (Virtual Proxy) to display the Tiger Image. What the Virtual Proxy (i.e. System B) will do is, first it will check whether the real image object is there in the virtual proxy or not. If the real image object is not there, then in step1 it will create the real image object and load the image from the disk and in step2 it will call the display image method on the real image object. Virtual Proxy also holds the real image object which is created in step1. The step1 i.e. creating the real image object and loading the image from the disk is an expensive operation.
