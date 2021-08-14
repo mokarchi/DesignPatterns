@@ -7,7 +7,7 @@
 * Abstract means hiding some information and factory means which produces the products and pattern means a design. So, the Abstract Factory Pattern is a software design pattern that provides a way to encapsulate a group of individual factories that have a common theme. 
 
 <p align="center">
-  <img src="https://dotnettutorials.net/wp-content/uploads/2018/11/c-users-pranaya-pictures-abstract-factory-design-1024x614.png" />
+  <img src="http://mokarchi.ir/git/AbstractFactory/c-users-pranaya-pictures-abstract-factory-design-1024x614.png" />
 </p>
 ---
 ## When to use it Abstract Factory Design Pattern?
