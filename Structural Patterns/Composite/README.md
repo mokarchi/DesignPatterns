@@ -1,4 +1,4 @@
-﻿### Composite 
+### Composite 
 Compose objects into tree structures to represent part-whole hierarchies. Composite let clients treat individual objects and compositions of objects uniformly
 In simple words, we can say that the composite pattern composes the objects in terms of a tree structure to represent part as well as a whole hierarchy. The composite design pattern is used when we need to treat a group of objects in a similar way as a single object.
 
