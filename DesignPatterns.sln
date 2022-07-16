@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30709.132
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{B88CC588-A3DF-44E1-8E6A-355705E85A5F}"
 EndProject
@@ -31,8 +31,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Composite", "Structural Pat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Structural Patterns\Adapter\Adapter.csproj", "{2E4559CC-5240-4624-878E-02C45129E99A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Structural Patterns\Decorator\Decorator.csproj", "{2FB12AE9-971C-4D53-A62E-61FFD1C87C00}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Structural Patterns\Facade\Facade.csproj", "{D14FC5D0-778C-47A6-B67A-E8FAFD2C7FBA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Flyweight", "Structural Patterns\Flyweight\Flyweight.csproj", "{ADC3932E-FE74-4B5C-A9E7-B9C8CB2E684E}"
@@ -59,8 +57,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter(Real-time Example)"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bridge (Real-Time Example)", "Structural Patterns\Bridge (Real-Time Example)\Bridge (Real-Time Example).csproj", "{E549ABAB-46A8-441D-A767-77E8D5C218F7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator(Real-Time Example)", "Structural Patterns\Decorator(Real-Time Example)\Decorator(Real-Time Example).csproj", "{08C2093F-ED25-4BE5-A06E-5648D5E8427E}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy(Real-Time Example)", "Structural Patterns\Proxy(Real-Time Example)\Proxy(Real-Time Example).csproj", "{0BAAB2A8-C02B-4234-9CF8-E75F464B030B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interpreter", "Behavioral Patterns\Interpreter\Interpreter.csproj", "{343309F5-73AD-493C-AF6D-4690DAE13D42}"
@@ -79,65 +75,65 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flow control patterns", "Fl
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "State management and persistence patterns", "State management and persistence patterns", "{99BEF67E-E5AA-436B-92EC-5B04A6169324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simple Component", "Fault tolerance and recovery patterns\Simple Component\Simple Component.csproj", "{55600FB3-9507-4F17-B5AE-B5E936E0F765}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Simple Component", "Fault tolerance and recovery patterns\Simple Component\Simple Component.csproj", "{55600FB3-9507-4F17-B5AE-B5E936E0F765}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Error Kernel", "Fault tolerance and recovery patterns\Error Kernel\Error Kernel.csproj", "{97AED41D-41ED-47D8-B2ED-086742C72864}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Error Kernel", "Fault tolerance and recovery patterns\Error Kernel\Error Kernel.csproj", "{97AED41D-41ED-47D8-B2ED-086742C72864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Let-it-crash", "Fault tolerance and recovery patterns\Let-it-crash\Let-it-crash.csproj", "{490E446F-ABF1-46C9-865D-6C0D361586D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Let-it-crash", "Fault tolerance and recovery patterns\Let-it-crash\Let-it-crash.csproj", "{490E446F-ABF1-46C9-865D-6C0D361586D6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Circuit Breaker", "Fault tolerance and recovery patterns\Circuit Breaker\Circuit Breaker.csproj", "{D6A41399-6622-4550-ACE3-338DEDFA0A69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Circuit Breaker", "Fault tolerance and recovery patterns\Circuit Breaker\Circuit Breaker.csproj", "{D6A41399-6622-4550-ACE3-338DEDFA0A69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Active–passive", "Replication patterns\Active–passive\Active–passive.csproj", "{5E37BF83-B42E-42FB-B157-99AE6147FAE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Active–passive", "Replication patterns\Active–passive\Active–passive.csproj", "{5E37BF83-B42E-42FB-B157-99AE6147FAE4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Active–active", "Replication patterns\Active–active\Active–active.csproj", "{0F6B6F91-2EC6-479B-939D-DD7C4D0A9799}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Active–active", "Replication patterns\Active–active\Active–active.csproj", "{0F6B6F91-2EC6-479B-939D-DD7C4D0A9799}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Multiple-master", "Multiple-master", "{3127CD5D-5FC7-41B5-BCC0-37167965DCD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consensus-based", "Replication patterns\Multiple-master\Consensus-based\Consensus-based.csproj", "{3D1B941A-4E5C-4BF0-987F-9674A9D87C23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Consensus-based", "Replication patterns\Multiple-master\Consensus-based\Consensus-based.csproj", "{3D1B941A-4E5C-4BF0-987F-9674A9D87C23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conflict detection and resolution", "Replication patterns\Multiple-master\Conflict detection and resolution\Conflict detection and resolution.csproj", "{9DB8CCB9-277B-45B4-BAE5-DD7CC18E72C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conflict detection and resolution", "Replication patterns\Multiple-master\Conflict detection and resolution\Conflict detection and resolution.csproj", "{9DB8CCB9-277B-45B4-BAE5-DD7CC18E72C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conflict-free replicated data types", "Replication patterns\Multiple-master\Conflict-free replicated data types\Conflict-free replicated data types.csproj", "{E25F2950-D7F9-4D64-89D2-26667EE0E6DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Conflict-free replicated data types", "Replication patterns\Multiple-master\Conflict-free replicated data types\Conflict-free replicated data types.csproj", "{E25F2950-D7F9-4D64-89D2-26667EE0E6DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resource encapsulation", "Resource management patterns\Resource encapsulation\Resource encapsulation.csproj", "{FEC957C7-0F6A-4D7E-A82A-1D8EB8388EBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resource encapsulation", "Resource management patterns\Resource encapsulation\Resource encapsulation.csproj", "{FEC957C7-0F6A-4D7E-A82A-1D8EB8388EBA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resource loan", "Resource management patterns\Resource loan\Resource loan.csproj", "{4484CD0E-A75E-45BC-8478-67F1D3F30082}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resource loan", "Resource management patterns\Resource loan\Resource loan.csproj", "{4484CD0E-A75E-45BC-8478-67F1D3F30082}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Complex command", "Resource management patterns\Complex command\Complex command.csproj", "{56B57D40-C7CA-4189-BED2-1B2ED99F5210}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Complex command", "Resource management patterns\Complex command\Complex command.csproj", "{56B57D40-C7CA-4189-BED2-1B2ED99F5210}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resource pool", "Resource management patterns\Resource pool\Resource pool.csproj", "{EA443168-5158-4103-985D-1B61B6D5DD63}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Resource pool", "Resource management patterns\Resource pool\Resource pool.csproj", "{EA443168-5158-4103-985D-1B61B6D5DD63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managed blocking", "Resource management patterns\Managed blocking\Managed blocking.csproj", "{549A928B-5C4C-42D0-B399-3CC13B77DE3D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Managed blocking", "Resource management patterns\Managed blocking\Managed blocking.csproj", "{549A928B-5C4C-42D0-B399-3CC13B77DE3D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Request–response", "Message flow patterns\Request–response\Request–response.csproj", "{501C447B-2C6A-419A-BA3D-8DA2BDC7F338}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Request–response", "Message flow patterns\Request–response\Request–response.csproj", "{501C447B-2C6A-419A-BA3D-8DA2BDC7F338}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Self-contained message", "Message flow patterns\Self-contained message\Self-contained message.csproj", "{CC3A132A-C763-46E4-B546-746D2AE3A06B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Self-contained message", "Message flow patterns\Self-contained message\Self-contained message.csproj", "{CC3A132A-C763-46E4-B546-746D2AE3A06B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ask pattern", "Message flow patterns\Ask pattern\Ask pattern.csproj", "{13A7C216-7B74-41F0-8A37-CCFDE19B8D06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ask pattern", "Message flow patterns\Ask pattern\Ask pattern.csproj", "{13A7C216-7B74-41F0-8A37-CCFDE19B8D06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Forward Flow", "Message flow patterns\Forward Flow\Forward Flow.csproj", "{E66B22C6-2651-424B-A466-0D9D09169EB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Forward Flow", "Message flow patterns\Forward Flow\Forward Flow.csproj", "{E66B22C6-2651-424B-A466-0D9D09169EB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aggregator", "Message flow patterns\Aggregator\Aggregator.csproj", "{4ED1E5BE-9728-4B05-8358-64247A093771}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Aggregator", "Message flow patterns\Aggregator\Aggregator.csproj", "{4ED1E5BE-9728-4B05-8358-64247A093771}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Saga", "Message flow patterns\Saga\Saga.csproj", "{84E8308D-A237-4A38-AEEB-AFEE9A11EDBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Saga", "Message flow patterns\Saga\Saga.csproj", "{84E8308D-A237-4A38-AEEB-AFEE9A11EDBC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business Handshake", "Message flow patterns\Business Handshake\Business Handshake.csproj", "{D9AD5CB5-3B45-4F57-9AA1-9A212C8F2568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business Handshake", "Message flow patterns\Business Handshake\Business Handshake.csproj", "{D9AD5CB5-3B45-4F57-9AA1-9A212C8F2568}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pull", "Flow control patterns\Pull\Pull.csproj", "{8E31F0EF-E092-4C86-89CF-B4D6B84EC19B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pull", "Flow control patterns\Pull\Pull.csproj", "{8E31F0EF-E092-4C86-89CF-B4D6B84EC19B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Managed queue", "Flow control patterns\Managed queue\Managed queue.csproj", "{DA62D797-005B-4B09-8A2F-9A242B2EEFA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Managed queue", "Flow control patterns\Managed queue\Managed queue.csproj", "{DA62D797-005B-4B09-8A2F-9A242B2EEFA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drop", "Flow control patterns\Drop\Drop.csproj", "{9FC670E7-0647-4A0A-852E-05466DA171E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Drop", "Flow control patterns\Drop\Drop.csproj", "{9FC670E7-0647-4A0A-852E-05466DA171E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Throttling", "Flow control patterns\Throttling\Throttling.csproj", "{CCB545A2-D94D-4CAE-90D4-71EF1462E55C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Throttling", "Flow control patterns\Throttling\Throttling.csproj", "{CCB545A2-D94D-4CAE-90D4-71EF1462E55C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain object", "State management and persistence patterns\Domain object\Domain object.csproj", "{E662D99C-1F21-4DE9-BD6F-F3069C7DFE01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain object", "State management and persistence patterns\Domain object\Domain object.csproj", "{E662D99C-1F21-4DE9-BD6F-F3069C7DFE01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharding", "State management and persistence patterns\Sharding\Sharding.csproj", "{FFA812A0-15B6-490C-A6F0-7468BAA7A98C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharding", "State management and persistence patterns\Sharding\Sharding.csproj", "{FFA812A0-15B6-490C-A6F0-7468BAA7A98C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event sourcing", "State management and persistence patterns\Event sourcing\Event sourcing.csproj", "{B83D72FD-A3BF-4F74-AD80-D84437EA3963}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event sourcing", "State management and persistence patterns\Event sourcing\Event sourcing.csproj", "{B83D72FD-A3BF-4F74-AD80-D84437EA3963}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event stream", "State management and persistence patterns\Event stream\Event stream.csproj", "{FE3A950C-4881-4CC0-9C5C-9A0E7C245945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event stream", "State management and persistence patterns\Event stream\Event stream.csproj", "{FE3A950C-4881-4CC0-9C5C-9A0E7C245945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -193,10 +189,6 @@ Global
 		{2E4559CC-5240-4624-878E-02C45129E99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E4559CC-5240-4624-878E-02C45129E99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E4559CC-5240-4624-878E-02C45129E99A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{2FB12AE9-971C-4D53-A62E-61FFD1C87C00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2FB12AE9-971C-4D53-A62E-61FFD1C87C00}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2FB12AE9-971C-4D53-A62E-61FFD1C87C00}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2FB12AE9-971C-4D53-A62E-61FFD1C87C00}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D14FC5D0-778C-47A6-B67A-E8FAFD2C7FBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D14FC5D0-778C-47A6-B67A-E8FAFD2C7FBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14FC5D0-778C-47A6-B67A-E8FAFD2C7FBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -245,10 +237,6 @@ Global
 		{E549ABAB-46A8-441D-A767-77E8D5C218F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E549ABAB-46A8-441D-A767-77E8D5C218F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E549ABAB-46A8-441D-A767-77E8D5C218F7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{08C2093F-ED25-4BE5-A06E-5648D5E8427E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{08C2093F-ED25-4BE5-A06E-5648D5E8427E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{08C2093F-ED25-4BE5-A06E-5648D5E8427E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{08C2093F-ED25-4BE5-A06E-5648D5E8427E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0BAAB2A8-C02B-4234-9CF8-E75F464B030B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0BAAB2A8-C02B-4234-9CF8-E75F464B030B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BAAB2A8-C02B-4234-9CF8-E75F464B030B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -392,7 +380,6 @@ Global
 		{52BCFF59-FC3E-49D2-9A81-4534D1230947} = {354EAE07-E24B-4556-A3A3-5F8FFFA98252}
 		{EEDB54F5-4BEE-41B3-AE0A-207257236563} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 		{2E4559CC-5240-4624-878E-02C45129E99A} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
-		{2FB12AE9-971C-4D53-A62E-61FFD1C87C00} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 		{D14FC5D0-778C-47A6-B67A-E8FAFD2C7FBA} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 		{ADC3932E-FE74-4B5C-A9E7-B9C8CB2E684E} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 		{6BDD7568-DB11-4C78-B2FF-04DB061BBE4E} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
@@ -406,7 +393,6 @@ Global
 		{A50B3F06-4FE6-4940-940A-02113C652126} = {074B4672-388B-4F78-89A1-CCE847376732}
 		{E0AA68A6-ECE4-45A0-9EA2-DB33F35886E9} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 		{E549ABAB-46A8-441D-A767-77E8D5C218F7} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
-		{08C2093F-ED25-4BE5-A06E-5648D5E8427E} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 		{0BAAB2A8-C02B-4234-9CF8-E75F464B030B} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 		{343309F5-73AD-493C-AF6D-4690DAE13D42} = {B88CC588-A3DF-44E1-8E6A-355705E85A5F}
 		{55600FB3-9507-4F17-B5AE-B5E936E0F765} = {4F817639-465D-406D-BAF5-414C80DBBE9B}
