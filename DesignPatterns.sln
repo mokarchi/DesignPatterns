@@ -133,6 +133,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Event stream", "State manag
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Decorator", "Structural Patterns\Decorator\Decorator.csproj", "{E4F9B947-9F79-4086-A7C7-28F553798731}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Structural Patterns\Proxy\Proxy.csproj", "{A1C8A70E-FBB8-44D8-8859-7DCA346AC358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -355,6 +357,10 @@ Global
 		{E4F9B947-9F79-4086-A7C7-28F553798731}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4F9B947-9F79-4086-A7C7-28F553798731}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4F9B947-9F79-4086-A7C7-28F553798731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1C8A70E-FBB8-44D8-8859-7DCA346AC358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1C8A70E-FBB8-44D8-8859-7DCA346AC358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1C8A70E-FBB8-44D8-8859-7DCA346AC358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1C8A70E-FBB8-44D8-8859-7DCA346AC358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -418,6 +424,7 @@ Global
 		{B83D72FD-A3BF-4F74-AD80-D84437EA3963} = {99BEF67E-E5AA-436B-92EC-5B04A6169324}
 		{FE3A950C-4881-4CC0-9C5C-9A0E7C245945} = {99BEF67E-E5AA-436B-92EC-5B04A6169324}
 		{E4F9B947-9F79-4086-A7C7-28F553798731} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
+		{A1C8A70E-FBB8-44D8-8859-7DCA346AC358} = {52BCFF59-FC3E-49D2-9A81-4534D1230947}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3C268628-8209-4133-9993-99B564299D74}
