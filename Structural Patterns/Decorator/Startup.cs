@@ -19,17 +19,20 @@ namespace Decorator
             services.AddMemoryCache();
             services.AddControllers();
             services.AddSwaggerGen();
-            services.AddScoped(serviceProvider =>
-            {
-                var logger = serviceProvider.GetService<ILogger<DataServiceLoggingDecorator>>();
-                var memoryCache = serviceProvider.GetService<IMemoryCache>();
+            //services.AddScoped(serviceProvider =>
+            //{
+            //    var logger = serviceProvider.GetService<ILogger<DataServiceLoggingDecorator>>();
+            //    var memoryCache = serviceProvider.GetService<IMemoryCache>();
 
-                IDataService concreteService = new DataService();
-                IDataService loggingDecorator = new DataServiceLoggingDecorator(concreteService, logger);
-                IDataService cacheingDecorator = new DataServiceCachingDecorator(loggingDecorator, memoryCache);
+            //    IDataService concreteService = new DataService();
+            //    IDataService loggingDecorator = new DataServiceLoggingDecorator(concreteService, logger);
+            //    IDataService cacheingDecorator = new DataServiceCachingDecorator(loggingDecorator, memoryCache);
 
-                return cacheingDecorator;
-            });
+            //    return cacheingDecorator;
+            //});
+            services.AddScoped<IDataService,DataService>();
+            services.Decorate<IDataService, DataServiceLoggingDecorator>();
+            services.Decorate<IDataService, DataServiceCachingDecorator>();
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
