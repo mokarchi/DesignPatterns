@@ -1,4 +1,22 @@
 ﻿### Builder 
+ 
+ So what is the motivation behind a builder?
+
+Well, the thing is that some objects are simple. And if you have a simple object like a point which has X and Y coordinates, you can go ahead and create this object in a single constructor call you just call the constructor, provide the arguments and that's it.
+
+On the other hand, other objects require a lot of ceremony to create.
+So, for example, when you are constructing a string from a dozen different pieces, what you typically want to do is not call a constructor and not do a concatenation where you have 1000 plus signs.
+Instead you make a string builder, which actually lets you construct an object piece by piece.
+
+So having an object with 10 constructor arguments is really not productive. It's not the great way to go because people make mistakes when they see too much variety. If you have a constructed with 10 arguments, you may miss up two of the arguments by misplacing one of them. And once again, code completion in modern IDs is great, but it's not that great. And sometimes it can give you a false sense of security in a way.
+
+So having a massive constructor is not a great way and instead you should opt for piecewise construction.
+
+So allow people to construct objects piece by piece and provide a good API for actually doing it. 
+
+And this is what the builder pattern is all about. So a builder is essentially a separate component. So when piecewise construction of an object is complicated, then you provide a special API for actually doing it succinctly.
+
+
 The Builder Design Pattern builds a complex object using many simple objects and using a step-by-step approach. The Process of constructing a complex object should be generic so that the same construction process can be used to create different representations of the same complex object.
 
 So, the Builder Design Pattern is all about separating the construction process from its representation. When the construction process of your object is very complex then only you need to use to Builder Design Pattern
