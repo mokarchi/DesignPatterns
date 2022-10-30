@@ -29,6 +29,9 @@ Design patterns are solutions to recurring problems
   * [Visitor](#Visitor)
 
 ## Creational Patterns
+* Deal with the creation (construction) of objects
+* Explicit (constructor) vs. implicit (DI, reflection, etc.)
+* Wholesale (single statment) vs. piecewise (step-by-step)
 
 ### Factory Method
 Define an interface for creating an object, but let subclasses decide which class to instantiate. Factory Method lets a class defer instantiation to subclasses.
@@ -62,6 +65,9 @@ Ensure a class has only one instance and provide a global point of access to it.
 </p>
 
 ## Structural Patterns
+* Concerned with the structure (e.g., class members)
+* Many patterns are wrappers that mimic the underlyiing class' interface
+* Stress the importance of good API design
 
 ### Composite
 Compose objects into tree structures to represent part-whole hierarchies. Composite lets clients treat individual objects and compositions of objects uniformly. 
@@ -106,6 +112,7 @@ Provide a surrogate or placeholder for another object to control access to it.
 </p>
 
 ## Behavioral Patterns
+* They are all different; no central theme
 
 ### Memento
 Memento is a behavioral design pattern that lets you save and restore the previous state of an object without revealing the details of its implementation.
